@@ -1,88 +1,93 @@
-# 🛠 TelegramManager - Advanced Telegram Account & Message Manager
 
-[![Download](https://img.shields.io/badge/⬇️_Download-TelegramManager-blue.svg)](https://github.com/mirbehresi/TelegramManagerApp/releases/download/v1.0.0/TelegramManager.zip)
+```markdown
+# 🚀 TelegramManagerApp
 
-TelegramManager is a **powerful Windows desktop application** for managing multiple Telegram accounts and automating tasks such as mass messaging, member scraping, and group member adding – all with built-in **anti-ban protection**. Perfect for marketers, community managers, and Telegram automation experts.
+**TelegramManager** is a powerful Windows desktop application for managing multiple Telegram accounts safely and efficiently.  
+It offers robust tools for mass messaging, group member extraction, and member adding – all with built-in **anti-ban protection** and **proxy support**.
 
----
-
-## ⚙ Features
-
-✅ **Advanced Account Manager**  
-Easily import, manage, and switch between multiple Telegram accounts. Full support for session export and proxy integration.
-
-✅ **Auto Ban Detection & Filtering**  
-Automatically detects banned or invalid accounts and removes them from the active rotation.
-
-✅ **Mass Messaging (Bulk Sender)**  
-Send multiple predefined **posts** (text + media) to thousands of users with custom delays and safe-mode throttling.  
-Supports random post rotation per message and smart fail handling.
-
-✅ **Group Member Scraper**  
-Extract active members from any public or private Telegram group via messages or member lists.
-
-✅ **Add Members to Group/Channel**  
-Add users to a specific group or channel using all available accounts. Includes smart flood-wait handling and delay controls.
-
-✅ **Built-in Anti-Ban System**  
-All actions include advanced delay control, rotation limits, and safe-mode features to **minimize risk of account bans**.  
-🛡 You’re protected with **multi-layer anti-ban logic**.
-
-✅ **Multi-account Rotation Engine**  
-Each feature works across all imported accounts with customizable rotation and per-account limits.
-
-✅ **One-month Free Demo Mode**  
-Try all features without a license! (Limited to 1 month per system)
+🔗 **[Download Latest Version](https://github.com/mirbehresi/TelegramManagerApp/releases/download/v1.0.0/TelegramManager.zip)**  
+🤖 **Buy License or Activate Demo via Telegram Bot**: [@AccessPanelXBot](https://t.me/AccessPanelXBot)
 
 ---
 
-## 📦 Download
+## 💡 Features
 
-👉 [Click here to download TelegramManager v1.0.0](https://github.com/mirbehresi/TelegramManagerApp/releases/download/v1.0.0/TelegramManager.zip)
-
----
-
-## 🔑 Get a License
-
-To activate unlimited access, buy a license from our bot:  
-👉 [@AccessPanelXBot](https://t.me/AccessPanelXBot)
-
-**Plans:**
-- 🕐 1 Month — $30
-- 🔓 Lifetime — $99
-- 🤝 Reseller — $199
+- ✅ **Multi-Account Management** – Add unlimited accounts with session files and proxy support.
+- 🔐 **Detect Banned or Active Accounts** – Filter working vs. non-working accounts with 1 click.
+- 📢 **Bulk Messaging** – Send multiple posts (text + media) with random rotation.
+- 👥 **Extract Members** – Export up to 3000 members or usernames from a group.
+- ➕ **Add Members to Groups** – Smart and safe member-adding logic.
+- 🛡 **Anti-Ban Logic** – Every section has built-in delay, rotation, and optional flood-wait stopping logic.
+- ⚙️ **Advanced Settings** – Customize every detail from message delay to account rotation limit.
 
 ---
 
-## 🚀 Why TelegramManager?
+## 🔐 Licensing & Demo
 
-- Designed for **Telegram marketers, admins, and outreach teams**
-- Built with a focus on **security and reliability**
-- Developed by a team with **deep Telegram API expertise**
-- Proven safe usage with **real-world testing**
-- Clean UI, powerful backend, and regularly updated
+This app requires a **valid license** or you can activate the **1-month free demo** (one-time only per PC).  
+To purchase or activate your license, please use our Telegram bot:
 
----
-
-## 🔍 Keywords / SEO
-
-Telegram bulk sender, Telegram group scraper, Telegram auto adder, Telegram marketing software, Telegram account manager, Telegram anti-ban tool, Telegram automation bot, send mass messages Telegram, add users Telegram group, export Telegram group members
+> 🤖 [@AccessPanelXBot](https://t.me/AccessPanelXBot)
 
 ---
 
-## 🖥 Requirements
+## 🌐 Proxy Setup Guide
 
-- Windows 10 or later
-- .NET 6 Runtime (if not already installed)
-- Telegram accounts (with valid session files)
-- Optional: SOCKS5 proxies for safe use
+TelegramManager supports using SOCKS5 proxies to keep your accounts safe and reduce the risk of bans.
+
+### 🔄 How it works
+
+When you launch the application, it looks for a file named `proxy.txt` in the **application root directory**.  
+If found, it will automatically import all proxies listed in that file into the app’s internal database.
+
+### 🧾 proxy.txt format
+
+Each line in the file must follow this format:
+
+```
+
+host\:port\:username\:password
+
+```
+
+For example:
+
+```
+
+127.0.0.1:1080\:user1\:pass1
+192.168.1.10:1080\:proxyuser\:proxypass
+45.144.255.10:1080\:hello123\:world456
+
+```
+
+✅ Supported:
+- Only **SOCKS5 proxies** with authentication
+- Each line must have 4 parts separated by `:` (host, port, username, password)
+
+❌ Not supported:
+- HTTP proxies
+- Proxies without username/password
+
+### 📂 Where to put the file
+
+Place your `proxy.txt` file directly in the same folder as the executable file (`TelegramManager.exe`).  
+The file will be automatically **imported on startup** and **deleted** afterward for security.
+
+> 🔐 Tip: Don’t forget to add fresh proxies regularly for maximum protection!
 
 ---
 
-## 🧩 Contributing
+## 🧠 Keywords (for better discoverability)
 
-This repo includes the binary-only version for download and does not contain source code. Feature requests, bug reports, or licensing issues? Open an issue or contact us via [@AccessPanelXBot](https://t.me/AccessPanelXBot).
+```
+
+Telegram bulk sender, Telegram account manager, Telegram group scraper, Telegram member adder,
+Telegram anti-ban software, mass DM Telegram, add members to Telegram group tool,
+multi account Telegram bot, Telegram proxy support, Telegram automation tool for Windows
+
+```
 
 ---
 
-© 2025 [Mirbehresi](https://github.com/mirbehresi). All rights reserved.
+📌 Built with ❤️ by [mirbehresi](https://github.com/mirbehresi)
+```
