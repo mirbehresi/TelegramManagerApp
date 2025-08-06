@@ -1,5 +1,3 @@
-
-```markdown
 # 🚀 TelegramManagerApp
 
 **TelegramManager** is a powerful Windows desktop application for managing multiple Telegram accounts safely and efficiently.  
@@ -45,19 +43,15 @@ If found, it will automatically import all proxies listed in that file into the 
 Each line in the file must follow this format:
 
 ```
-
-host\:port\:username\:password
-
+host:port:username:password
 ```
 
 For example:
 
 ```
-
-127.0.0.1:1080\:user1\:pass1
-192.168.1.10:1080\:proxyuser\:proxypass
-45.144.255.10:1080\:hello123\:world456
-
+127.0.0.1:1080:user1:pass1  
+192.168.1.10:1080:proxyuser:proxypass  
+45.144.255.10:1080:hello123:world456
 ```
 
 ✅ Supported:
@@ -80,14 +74,11 @@ The file will be automatically **imported on startup** and **deleted** afterward
 ## 🧠 Keywords (for better discoverability)
 
 ```
-
 Telegram bulk sender, Telegram account manager, Telegram group scraper, Telegram member adder,
 Telegram anti-ban software, mass DM Telegram, add members to Telegram group tool,
 multi account Telegram bot, Telegram proxy support, Telegram automation tool for Windows
-
 ```
 
 ---
 
 📌 Built with ❤️ by [mirbehresi](https://github.com/mirbehresi)
-```
