@@ -3,7 +3,7 @@
 **TelegramManager** is a powerful Windows desktop application for managing multiple Telegram accounts safely and efficiently.  
 It offers robust tools for mass messaging, group member extraction, and member adding – all with built-in **anti-ban protection** and **proxy support**.
 
-🔗 **[Download Latest Version](https://github.com/mirbehresi/TelegramManagerApp/releases/download/v1.0.0/TelegramManager.zip)**  
+🔗 **[Download Latest Version](https://github.com/mirbehresi/TelegramManagerApp/releases)**  
 🤖 **Buy License or Activate Demo via Telegram Bot**: [@AccessPanelXBot](https://t.me/AccessPanelXBot)
 
 ---
